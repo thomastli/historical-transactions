@@ -11,4 +11,4 @@ coverage:
   - 80.0
   round: down
 ignore:
-- test_historic_transactions.py
+- test_historical_transactions.py
