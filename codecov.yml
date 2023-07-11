@@ -1,0 +1,14 @@
+codecov:
+  require_ci_to_pass: true
+comment:
+  behavior: default
+  layout: reach,diff,flags,files,footer
+  require_changes: false
+coverage:
+  precision: 2
+  range:
+  - 60.0
+  - 80.0
+  round: down
+ignore:
+- test_historic_transactions.py
